@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+  
+.image-row img {
+  width: 30%;
+  height: auto;
+}
