@@ -12,3 +12,12 @@ body{
   width: 30%;
   height: auto;
 }
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.8em;
+  color: #666;
+}
