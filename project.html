@@ -1,41 +1,50 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="style.css">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="jscript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+<body>
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-2 col-sm-12 col-xs-12">
+            <h1><center>Introduction to HTML</center></h1>
             <nav id="navbar">
                 <h1><center>Introduction to HTML</center></h1>
                 <!--linking to the corresponding sections-->
-                <ul section= "nav nav-pills nav-stacked">
-                    <a section= "nav-link" href= "#History of HTML" rel="internal">
+                <ul class= "nav nav-pills nav-stacked" id="fixed-sidebar">
+                    <a class= "nav-link" href= "#History of HTML" rel="internal">
                         <li>History of HTML</li>
                     </a>
-                    <a section= "nav-link" href= "#What is HTML?" rel="internal">
+                    <a class= "nav-link" href= "#What is HTML?" rel="internal">
                         <li>What is HTML?</li>
                     </a>
-                    <a section= "nav-link" href= "#What Companies use HTML?" rel="internal">
+                    <a class= "nav-link" href= "#What Companies use HTML?" rel="internal">
                         <li>What Companies use HTML?</li>
                     </a>
-                    <a section= "nav-link" href= "#How to set up HTML/ Use it?" rel="internal">
+                    <a class= "nav-link" href= "#How to set up HTML/ Use it?" rel="internal">
                         <li>How to set up HTML/ Use it?</li>
                     </a>
-                    <a section= "nav-link" href= "#HTML Basics" rel="internal">
+                    <a class= "nav-link" href= "#HTML Basics" rel="internal">
                         <li>HTML Basics</li>
                     </a>
-                    <a section= "nav-link" href= "#HTML Elements" rel="internal">
+                    <a class= "nav-link" href= "#HTML Elements" rel="internal">
                         <li>HTML Elements</li>
                     </a>
-                    <a section= "nav-link" href= "#Our HTML Project" rel="internal">
+                    <a class= "nav-link" href= "#Our HTML Project" rel="internal">
                         <li>Our HTML Project</li>
                     </a>
-                    <a section= "nav-link" href= "#GitHub Repoistory" rel="internal">
+                    <a class= "nav-link" href= "#GitHub Repoistory" rel="internal">
                         <li>GitHub Repoistory</li>
                     </a>
                 </ul>
             </nav>
         </div>
-        <div section= "col-md-10 col-sm-12 col-xs-12">
+        <div class= "col-md-10 col-sm-12 col-xs-12">
             <main id="main-doc">
                 <!--History of HTML-->
                 <section class="main-section" id="History of HTML" >
@@ -61,26 +70,24 @@
                         </article>
                 </section>
                 <!--What Companies use HTML? (ADD LOGO IMAGES)-->
-                <section class="main-section" id="What Companies use HTML?" >
-                    <h3 style = "background: black; color: white">What Companies use HTML?</h3>
-                    <article>
-                    <p>HTML helps these companies create user-friendly interfaces, optimize their websites for search engines and overall provide consistent user/customer experience visually. </p>
-                    <p>HTML is used for Website Developement, Digital Advertising, E-commerce, Apps, Search Optimization Engines (SEO), and essentially for better accessibility for users. </p>
-                    <p></p>
-                    <div class="image-row">
-                        <img src="https://logos-download.com/wp-content/uploads/2016/02/Google_Logo_2015.png" alt="Google" style="width: 30%">
-                        <img src="https://logos-download.com/wp-content/uploads/2016/03/Netflix_Logo_2001.svg" alt="Netflix" style="width: 30%">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" style="width: 30%">
-                    </div>
-                    <div class="image-row">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook" style="width: 20%">
-                        <img src="https://1000logos.net/wp-content/uploads/2017/04/Microsoft-Logo.png" alt="Microsoft" style="width: 30%">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt="Youtube" style="width: 30%">
-                    </div>
-                    <p>
-                    <p>
+                    <section class="main-section" id="What Companies use HTML?" >
+                        <h3 style = "background: black; color: white">What Companies use HTML?</h3>
+                        <article>
+                        <p>HTML helps these companies create user-friendly interfaces, optimize their websites for search engines and overall provide consistent user/customer experience visually. </p>
+                        <p>HTML is used for Website Developement, Digital Advertising, E-commerce, Apps, Search Optimization Engines (SEO), and essentially for better accessibility for users. </p>
+                        <p></p>
+                        <div class= "slider">
+                            <img src="https://logos-download.com/wp-content/uploads/2016/02/Google_Logo_2015.png" alt="Google">
+                            <img src="https://logos-download.com/wp-content/uploads/2016/03/Netflix_Logo_2001.svg" alt="Netflix">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="Facebook">
+                            <img src="https://1000logos.net/wp-content/uploads/2017/04/Microsoft-Logo.png" alt="Microsoft">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg" alt="Youtube">
+                        </div>
+                        <p>
+                        <p>
                         </article>
-                </section>
+                    </section>
                 <!--How to set up HTML/ Use it?-->
                 <section class="main-section" id="How to set up HTML/ Use it?" >
                     <h3 style = "background: black; color: white">How to set up HTML/ Use it?</h3>
@@ -160,11 +167,12 @@
                         <img src="frame.png" alt="Github QR Code">
                         <figcaption>Scan the QR code to access the GitHub repository</figcaption>
                     </figure>
-                    <p><a href="https://github.com/dollypatel01/HTML-Website.git">Link: Github HTML-Website Project</a></p>                    </article>
+                    <p><a href="https://github.com/dollypatel01/HTML-Website.git">Link: Github HTML-Website Project</a></p>                    
+                    </article>
                 </section> 
             </main>
         </div>
     </div>
 </div>
+</body>
 </html>
-    
